@@ -1,0 +1,37 @@
+body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: antiquewhite;
+    color: rgb(93, 43, 0);
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    width: 50%;
+    margin: 7rem 20rem 7rem 20rem;
+    background-color: burlywood;
+    border-radius: 20px;
+}
+
+.coll{
+    display: flex;
+    width: 100%;
+    margin: auto;
+    border: none;
+    border-bottom: 1px;
+    text-align: justify;
+}
+
+.content{
+    text-align: justify;
+    margin: auto;
+    width: 100%;
+    font-size: medium;
+}
+
+.active, .coll:hover {
+    background-color: wheat;
+    color: brown;
+}
+
